@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  overflow: auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: auto;
+}
+
+#root {
+  height: 100vh;
+  min-height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
